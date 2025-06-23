@@ -78,6 +78,7 @@ void sendResponse(String response) {
   SerialBT.print("\r>");
 }
 
+
 void handleCmd(String cmd) {
   cmd.trim();
   cmd.toUpperCase();
