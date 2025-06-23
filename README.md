@@ -1,6 +1,8 @@
 # ESP32 OBDLink Emulator
 ### Example code for emulating OBD2 and OBDLink CANBUS data for SoloStorm Telemetry
 
+### This is the legacy Arduino IDE version, using the BluetoothSerial.h library.  This code works, but your ESP32 might be putting the BT module into sleep mode when using the canbus method.  I never found a way to make that stop, so this version isn't updated anymore.  Use the main branch based on the ESP-IDF framework for a version that updates at the proper speeds.
+
 
 
 ## What this does
