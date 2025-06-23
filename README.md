@@ -1,7 +1,7 @@
 # ESP32 OBDLink Emulator
 ### Example code for emulating OBD2 and OBDLink CANBUS data for SoloStorm Telemetry
 
-### This version uses the ESP-IDF framework.  It manually sets the Bluetooth link policy to prevent sniff mode, which allows canbus frames to not be interrupted by lack of receiving data.  If you want to use the Arduino IDE version, switch to the legacy branch.
+### This version uses the ESP-IDF framework.  It manually sets the Bluetooth link policy to prevent sniff mode, which allows canbus frames to not be interrupted by lack of receiving data.  If you want to use the Arduino IDE version, switch to the ArduinoIDE branch.
 
 
 
