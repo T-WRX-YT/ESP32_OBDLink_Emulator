@@ -1,0 +1,142 @@
+9 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (S�ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:6276
+load:0x40078000,len:15748
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3860
+entry 0x4008063c
+[0;32mI (31) boot: ESP-IDF v5.4.1 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Jun 23 2025 12:43:45[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (32) boot: chip revision: v3.1[0m
+[0;32mI (35) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (39) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (43) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (46) boot: Enabling RNG early entropy source...[0m
+[0;32mI (51) boot: Partition Table:[0m
+[0;32mI (53) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (60) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (66) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (73) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (79) boot: End of partition table[0m
+[0;32mI (82) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=11294h ( 70292) map[0m
+[0;32mI (114) esp_image: segment 1: paddr=000212bc vaddr=3ff80000 size=0001ch (    28) load[0m
+[0;32mI (114) esp_image: segment 2: paddr=000212e0 vaddr=3ffbdb60 size=04438h ( 17464) load[0m
+[0;32mI (124) esp_image: segment 3: paddr=00025720 vaddr=40080000 size=0a8f8h ( 43256) load[0m
+[0;32mI (142) esp_image: segment 4: paddr=00030020 vaddr=400d0020 size=610c0h (397504) map[0m
+[0;32mI (278) esp_image: segment 5: paddr=000910e8 vaddr=4008a8f8 size=0c53ch ( 50492) load[0m
+[0;32mI (309) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (309) boot: Disabling RNG early entropy source...[0m
+[0;32mI (320) cpu_start: Multicore app[0m
+[0;32mI (328) cpu_start: Pro cpu start user code[0m
+[0;32mI (328) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (328) app_init: Application information:[0m
+[0;32mI (328) app_init: Project name:     bt_spp_acceptor_demo[0m
+[0;32mI (333) app_init: App version:      1[0m
+[0;32mI (337) app_init: Compile time:     Jun 23 2025 12:52:56[0m
+[0;32mI (342) app_init: ELF file SHA256:  bae78dca1...[0m
+[0;32mI (346) app_init: ESP-IDF:          v5.4.1[0m
+[0;32mI (350) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (354) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (358) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (362) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (368) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (373) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (378) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (383) heap_init: At 3FFC7E60 len 000181A0 (96 KiB): DRAM[0m
+[0;32mI (388) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (394) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (399) heap_init: At 40096E34 len 000091CC (36 KiB): IRAM[0m
+[0;32mI (406) spi_flash: detected chip: generic[0m
+[0;32mI (408) spi_flash: flash io: dio[0m
+[0;33mW (411) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (424) main_task: Started on CPU0[0m
+[0;32mI (434) main_task: Calling app_main()[0m
+[0;32mI (444) BTDM_INIT: BT controller compile version [dc1cd58][0m
+[0;32mI (444) BTDM_INIT: Bluetooth MAC: ac:15:18:d4:ac:d6[0m
+[0;32mI (444) phy_init: phy_version 4860,6b7a6e5,Feb  6 2025,14:47:07[0m
+[0;32mI (524) phy_init: Saving new calibration data due to checksum failure or outdated calibration data, mode(0)[0m
+Coex register Wi-Fi channel change btdm cb faild
+[1;31mE (1034) OBDLINK_EMULATOR: Enabled bluedroid[0m
+[1;31mE (1044) OBDLINK_EMULATOR: Sniff mode disabled via BTM_SetDefaultLinkPolicy[0m
+[0;32mI (1044) OBDLINK_EMULATOR: ESP_SPP_INIT_EVT[0m
+[0;32mI (1044) OBDLINK_EMULATOR: ESP_SPP_START_EVT handle:129 sec_id:55 scn:1[0m
+[0;32mI (1054) OBDLINK_EMULATOR: event: 10[0m
+[0;32mI (1054) OBDLINK_EMULATOR: Own address:[ac:15:18:d4:ac:d6][0m
+[0;32mI (1054) main_task: Returned from app_main()[0m
+[0;32mI (36694) OBDLINK_EMULATOR: event: 16[0m
+[0;32mI (36824) OBDLINK_EMULATOR: event: 21[0m
+[0;32mI (36834) OBDLINK_EMULATOR: ESP_SPP_SRV_OPEN_EVT status:0 handle:129, rem_bda:[ec:2b:eb:1a:42:16][0m
+[0;32mI (39154) OBDLINK_EMULATOR: ESP_SPP_CLOSE_EVT status:0 handle:129 close_by_remote:1[0m
+[0;32mI (43234) OBDLINK_EMULATOR: event: 17[0m
+[0;32mI (142014) OBDLINK_EMULATOR: event: 16[0m
+[0;32mI (142224) OBDLINK_EMULATOR: ESP_SPP_SRV_OPEN_EVT status:0 handle:385, rem_bda:[ec:2b:eb:1a:42:16][0m
+[0;32mI (142394) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:4 handle:385[0m
+[0;32mI (142394) : 41 54 5a 0d[0m
+[0;32mI (142394) OBDLINK_EMULATOR: Received data: ATZ[0m
+[0;32mI (142394) OBDLINK_EMULATOR: Trimmed input: 'ATZ'[0m
+[0;32mI (142394) OBDLINK_EMULATOR: Message received[0m
+[0;32mI (142404) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (142494) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:5 handle:385[0m
+[0;32mI (142494) : 41 54 45 30 0d[0m
+[0;32mI (142494) OBDLINK_EMULATOR: Received data: ATE0[0m
+[0;32mI (142494) OBDLINK_EMULATOR: Trimmed input: 'ATE0'[0m
+[0;32mI (142494) OBDLINK_EMULATOR: Message received[0m
+[0;32mI (142504) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (142524) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:5 handle:385[0m
+[0;32mI (142524) : 41 54 53 30 0d[0m
+[0;32mI (142524) OBDLINK_EMULATOR: Received data: ATS0[0m
+[0;32mI (142524) OBDLINK_EMULATOR: Trimmed input: 'ATS0'[0m
+[0;32mI (142524) OBDLINK_EMULATOR: Message received[0m
+[0;32mI (142534) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (142614) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:5 handle:385[0m
+[0;32mI (142614) : 41 54 4c 30 0d[0m
+[0;32mI (142614) OBDLINK_EMULATOR: Received data: ATL0[0m
+[0;32mI (142614) OBDLINK_EMULATOR: Trimmed input: 'ATL0'[0m
+[0;32mI (142614) OBDLINK_EMULATOR: Message received[0m
+[0;32mI (142624) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (142664) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:7 handle:385[0m
+[0;32mI (142664) : 41 54 53 50 30 30 0d[0m
+[0;32mI (142664) OBDLINK_EMULATOR: Received data: ATSP00[0m
+[0;32mI (142664) OBDLINK_EMULATOR: Trimmed input: 'ATSP00'[0m
+[0;33mW (142674) OBDLINK_EMULATOR: OBD2 mode detected[0m
+[0;32mI (152684) OBDLINK_EMULATOR: ESP_SPP_CLOSE_EVT status:0 handle:385 close_by_remote:1[0m
+[0;32mI (155224) OBDLINK_EMULATOR: ESP_SPP_SRV_OPEN_EVT status:0 handle:129, rem_bda:[ec:2b:eb:1a:42:16][0m
+[0;32mI (155244) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:4 handle:129[0m
+[0;32mI (155244) : 41 54 5a 0d[0m
+[0;32mI (155244) OBDLINK_EMULATOR: Received data: ATZ[0m
+[0;32mI (155244) OBDLINK_EMULATOR: Trimmed input: 'ATZ'[0m
+[0;32mI (155244) OBDLINK_EMULATOR: Message received[0m
+[0;32mI (155254) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (155304) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:5 handle:129[0m
+[0;32mI (155304) : 41 54 45 30 0d[0m
+[0;32mI (155304) OBDLINK_EMULATOR: Received data: ATE0[0m
+[0;32mI (155314) OBDLINK_EMULATOR: Trimmed input: 'ATE0'[0m
+[0;32mI (155314) OBDLINK_EMULATOR: Message received[0m
+[0;32mI (155324) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (155374) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:5 handle:129[0m
+[0;32mI (155374) : 41 54 53 30 0d[0m
+[0;32mI (155374) OBDLINK_EMULATOR: Received data: ATS0[0m
+[0;32mI (155374) OBDLINK_EMULATOR: Trimmed input: 'ATS0'[0m
+[0;32mI (155384) OBDLINK_EMULATOR: Message received[0m
+[0;32mI (155384) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (155434) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:5 handle:129[0m
+[0;32mI (155444) : 41 54 4c 30 0d[0m
+[0;32mI (155444) OBDLINK_EMULATOR: Received data: ATL0[0m
+[0;32mI (155444) OBDLINK_EMULATOR: Trimmed input: 'ATL0'[0m
+[0;32mI (155444) OBDLINK_EMULATOR: Message received[0m
+[0;32mI (155454) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (155504) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:7 handle:129[0m
+[0;32mI (155504) : 41 54 53 50 30 30 0d[0m
+[0;32mI (155504) OBDLINK_EMULATOR: Received data: ATSP00[0m
+[0;32mI (155504) OBDLINK_EMULATOR: Trimmed input: 'ATSP00'[0m
+[0;33mW (155514) OBDLINK_EMULATOR: OBD2 mode detected[0m
+[0;32mI (156334) OBDLINK_EMULATOR: ESP_SPP_CLOSE_EVT status:0 handle:129 close_by_remote:1[0m
+[0;32mI (160454) OBDLINK_EMULATOR: event: 17[0m

@@ -1,0 +1,53 @@
+Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESETets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:6276
+load:0x40078000,len:15748
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3860
+entry 0x4008063c
+[0;32mI (31) boot: ESP-IDF v5.4.1 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Jun 23 2025 12:43:45[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (32) boot: chip revision: v3.1[0m
+[0;32mI (35) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (39) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (43) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (46) boot: Enabling RNG early entropy source...[0m
+[0;32mI (51) boot: Partition Table:[0m
+[0;32mI (53) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (60) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (66) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (73) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (79) boot: End of partition table[0m
+[0;32mI (82) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=11324h ( 70436) map[0m
+[0;32mI (114) esp_image: segment 1: paddr=0002134c vaddr=3ff80000 size=0001ch (    28) load[0m
+[0;32mI (114) esp_image: segment 2: paddr=00021370 vaddr=3ffbdb60 size=04438h ( 17464) load[0m
+[0;32mI (124) esp_image: segment 3: paddr=000257b0 vaddr=40080000 size=0a868h ( 43112) load[0m
+[0;32mI (142) esp_image: segment 4: paddr=00030020 vaddr=400d0020 size=611bch (397756) map[0m
+[0;32mI (278) esp_image: segment 5: paddr=000911e4 vaddr=4008a868 size=0c5cch ( 50636) load[0m
+[0;32mI (309) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (309) boot: Disabling RNG early entropy source...[0m
+[0;32mI (320) cpu_start: Multicore app[0m
+[0;32mI (328) cpu_start: Pro cpu start user code[0m
+[0;32mI (328) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (328) app_init: Application information:[0m
+[0;32mI (328) app_init: Project name:     bt_spp_acceptor_demo[0m
+[0;32mI (333) app_init: App version:      1[0m
+[0;32mI (337) app_init: Compile time:     Jun 23 2025 12:52:56[0m
+[0;32mI (342) app_init: ELF file SHA256:  57abf6b14...[0m
+[0;32mI (346) app_init: ESP-IDF:          v5.4.1[0m
+[0;32mI (350) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (354) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (358) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (362) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (368) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (373) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (378) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (383) h

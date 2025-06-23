@@ -1,0 +1,291 @@
+Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESE�ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:6276
+load:0x40078000,len:15748
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3860
+entry 0x4008063c
+[0;32mI (31) boot: ESP-IDF v5.4.1 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Jun 23 2025 12:43:45[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (32) boot: chip revision: v3.1[0m
+[0;32mI (35) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (39) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (43) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (46) boot: Enabling RNG early entropy source...[0m
+[0;32mI (51) boot: Partition Table:[0m
+[0;32mI (53) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (60) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (66) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (73) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (79) boot: End of partition table[0m
+[0;32mI (82) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=11204h ( 70148) map[0m
+[0;32mI (114) esp_image: segment 1: paddr=0002122c vaddr=3ff80000 size=0001ch (    28) load[0m
+[0;32mI (114) esp_image: segment 2: paddr=00021250 vaddr=3ffbdb60 size=04438h ( 17464) load[0m
+[0;32mI (124) esp_image: segment 3: paddr=00025690 vaddr=40080000 size=0a988h ( 43400) load[0m
+[0;32mI (142) esp_image: segment 4: paddr=00030020 vaddr=400d0020 size=60fa8h (397224) map[0m
+[0;32mI (278) esp_image: segment 5: paddr=00090fd0 vaddr=4008a988 size=0c4ach ( 50348) load[0m
+[0;32mI (309) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (309) boot: Disabling RNG early entropy source...[0m
+[0;32mI (320) cpu_start: Multicore app[0m
+[0;32mI (328) cpu_start: Pro cpu start user code[0m
+[0;32mI (328) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (328) app_init: Application information:[0m
+I (328) app_init: Project name:     bt_spp_acceptor_demo
+[0;32mI (333) app_init: App version:      1[0m
+[0;32mI (337) app_init: Compile time:     Jun 23 2025 12:52:56[0m
+[0;32mI (342) app_init: ELF file SHA256:  b0a922be4...[0m
+[0;32mI (346) app_init: ESP-IDF:          v5.4.1[0m
+[0;32mI (350) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (354) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (358) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (362) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (368) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (373) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (378) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (383) heap_init: At 3FFC7E60 len 000181A0 (96 KiB): DRAM[0m
+[0;32mI (388) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (394) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (399) heap_init: At 40096E34 len 000091CC (36 KiB): IRAM[0m
+[0;32mI (406) spi_flash: detected chip: generic[0m
+[0;32mI (408) spi_flash: flash io: dio[0m
+[0;33mW (411) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (424) main_task: Started on CPU0[0m
+[0;32mI (434) main_task: Calling app_main()[0m
+[0;32mI (434) BTDM_INIT: BT controller compile version [dc1cd58][0m
+[0;32mI (444) BTDM_INIT: Bluetooth MAC: ac:15:18:d4:ac:d6[0m
+[0;32mI (444) phy_init: phy_version 4860,6b7a6e5,Feb  6 2025,14:47:07[0m
+Coex register Wi-Fi channel change btdm cb faild
+[1;31mE (1034) OBDLINK_EMULATOR: Enabled bluedroid[0m
+[1;31mE (1034) OBDLINK_EMULATOR: Sniff mode disabled via BTM_SetDefaultLinkPolicy[0m
+[0;32mI (1034) OBDLINK_EMULATOR: ESP_SPP_INIT_EVT[0m
+[0;32mI (1034) OBDLINK_EMULATOR: ESP_SPP_START_EVT handle:129 sec_id:55 scn:1[0m
+[0;32mI (1054) OBDLINK_EMULATOR: event: 10[0m
+[0;32mI (1054) OBDLINK_EMULATOR: Own address:[ac:15:18:d4:ac:d6][0m
+[0;32mI (1054) main_task: Returned from app_main()[0m
+[0;32mI (23764) OBDLINK_EMULATOR: event: 16[0m
+[0;32mI (24104) OBDLINK_EMULATOR: event: 21[0m
+[0;32mI (24164) OBDLINK_EMULATOR: ESP_SPP_SRV_OPEN_EVT status:0 handle:129, rem_bda:[ec:2b:eb:1a:42:16][0m
+[0;32mI (24254) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (24254) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (24354) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (24354) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (24454) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (24454) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (24554) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (24554) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (24654) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (24654) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (24754) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (24754) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (24854) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (24854) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (24954) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (24954) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (25054) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (25054) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (25154) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (25154) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (25254) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (25254) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (25354) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (25354) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (25454) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (25454) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (25554) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (25554) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (25654) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (25654) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (25754) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (25754) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (25854) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (25854) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (25954) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (25954) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (26054) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (26054) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (26154) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (26154) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (26254) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (26254) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (26354) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (26354) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (26454) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (26454) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (26554) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (26554) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (26654) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (26654) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (26754) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (26754) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (26854) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (26854) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (26954) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (26954) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (27054) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (27054) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (27154) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (27154) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (27254) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (27254) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (27354) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (27354) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (27454) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (27454) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (27554) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (27554) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (27654) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (27654) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (27754) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (27754) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (27854) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (27854) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (27954) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (27954) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (28054) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (28054) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (28154) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (28154) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (28254) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (28254) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (28354) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (28354) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (28454) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (28454) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (28554) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (28554) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (28654) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (28654) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (28754) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (28754) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (28854) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (28854) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (28954) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (28954) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (29054) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (29054) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (29154) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (29154) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (29254) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (29254) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (29354) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (29354) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (29454) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (29454) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (29554) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (29554) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (29654) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (29654) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (29754) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (29754) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (29854) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (29854) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (29954) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (29954) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (30054) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (30054) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (30154) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (30154) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (30254) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (30254) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (30354) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (30354) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (30454) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (30454) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (30554) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (30554) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (30654) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (30654) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (30754) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (30754) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (30854) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (30854) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (30954) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (30954) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (31054) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (31054) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (31154) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (31154) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (31254) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (31254) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (31354) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (31354) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (31454) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (31454) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (31554) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (31554) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (31654) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (31654) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (31754) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (31754) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (31854) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (31854) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (31954) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (31954) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (32054) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (32054) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (32154) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (32154) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (32254) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (32254) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (32354) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (32354) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (32454) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (32454) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (32554) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (32554) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (32654) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (32654) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (32754) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (32754) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (32854) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (32854) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (32954) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (32954) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (33054) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (33054) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (33154) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (33154) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (33254) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (33254) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (33354) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (33354) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (33454) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (33454) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (33554) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (33554) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (33654) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (33654) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (33754) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (33754) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (33854) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (33854) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (33954) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (33954) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (34054) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (34054) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (34154) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (34154) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (34254) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (34254) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (34354) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (34354) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (34454) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (34454) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (34554) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (34554) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (34654) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (34654) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (34754) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (34754) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (34854) OBDLINK_EMULATOR: Sent hex response[0m
+[0;32mI (34854) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (34864) OBDLINK_EMULATOR: ESP_SPP_CLOSE_EVT status:0 handle:129 close_by_remote:1[0m
+[0;32mI (38974) OBDLINK_EMULATOR: event: 17[0m

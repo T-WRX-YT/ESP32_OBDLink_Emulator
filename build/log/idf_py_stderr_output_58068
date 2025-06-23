@@ -1,0 +1,172 @@
+[0;33m--- Warning: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM9 instead...[0m
+[0;33m--- esp-idf-monitor 1.6.2 on \\.\COM9 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x4010e13a: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x4010e550: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400885f9: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x400d80fb: my_loop_task at C:/Users/shake/esp/bt_spp_acceptor/main/main.c:61
+--- 0x4008f441: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x4010e13a: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x4010e550: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400885f9: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x400d80fb: my_loop_task at C:/Users/shake/esp/bt_spp_acceptor/main/main.c:61
+--- 0x4008f441: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x4010e13a: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x4010e550: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400885f9: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x400d80fb: my_loop_task at C:/Users/shake/esp/bt_spp_acceptor/main/main.c:61
+--- 0x4008f441: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x4010e13a: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x4010e550: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400885f9: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x400d80f8: my_loop_task at C:/Users/shake/esp/bt_spp_acceptor/main/main.c:58
+--- 0x4008f441: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x4010e13a: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x4010e550: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400885f9: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x400d80f8: my_loop_task at C:/Users/shake/esp/bt_spp_acceptor/main/main.c:58
+--- 0x4008f441: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x4010e13a: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x4010e550: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400885f9: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x400d80f8: my_loop_task at C:/Users/shake/esp/bt_spp_acceptor/main/main.c:58
+--- 0x4008f441: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x4010e13a: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x4010e550: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400885f9: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x400d80f8: my_loop_task at C:/Users/shake/esp/bt_spp_acceptor/main/main.c:58
+--- 0x4008f441: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x4010e13a: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x4010e550: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400885f9: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x400d80f8: my_loop_task at C:/Users/shake/esp/bt_spp_acceptor/main/main.c:58
+--- 0x4008f441: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x4010e13a: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x4010e550: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400885f9: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x400d80f8: my_loop_task at C:/Users/shake/esp/bt_spp_acceptor/main/main.c:58
+--- 0x4008f441: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x4010e13a: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x4010e550: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400885f9: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x400d80fb: my_loop_task at C:/Users/shake/esp/bt_spp_acceptor/main/main.c:61
+--- 0x4008f441: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x4010e13a: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x4010e550: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400885f9: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x400d80f8: my_loop_task at C:/Users/shake/esp/bt_spp_acceptor/main/main.c:58
+--- 0x4008f441: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x4010e13a: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x4010e550: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400885f9: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x400d80f8: my_loop_task at C:/Users/shake/esp/bt_spp_acceptor/main/main.c:58
+--- 0x4008f441: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x4010e13a: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x4010e550: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400885f9: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x400d80f8: my_loop_task at C:/Users/shake/esp/bt_spp_acceptor/main/main.c:58
+--- 0x4008f441: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x4010e13a: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x4010e550: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400885f9: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x400d80f8: my_loop_task at C:/Users/shake/esp/bt_spp_acceptor/main/main.c:58
+--- 0x4008f441: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x4010e13a: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x4010e550: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400885f9: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x400d80f8: my_loop_task at C:/Users/shake/esp/bt_spp_acceptor/main/main.c:58
+--- 0x4008f441: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x4010e13a: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x4010e550: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400885f9: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x400d80fb: my_loop_task at C:/Users/shake/esp/bt_spp_acceptor/main/main.c:61
+--- 0x4008f441: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x4010e13a: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x4010e550: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400885f9: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x400d80f8: my_loop_task at C:/Users/shake/esp/bt_spp_acceptor/main/main.c:58
+--- 0x4008f441: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x4010e13a: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x4010e550: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400885f9: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x400d80f8: my_loop_task at C:/Users/shake/esp/bt_spp_acceptor/main/main.c:58
+--- 0x4008f441: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x4010e13a: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x4010e550: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400885f9: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x400d80f8: my_loop_task at C:/Users/shake/esp/bt_spp_acceptor/main/main.c:58
+--- 0x4008f441: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x4010e13a: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x4010e550: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400885f9: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x400d80fb: my_loop_task at C:/Users/shake/esp/bt_spp_acceptor/main/main.c:61
+--- 0x4008f441: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x4010e13a: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x4010e550: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400885f9: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x400d80f8: my_loop_task at C:/Users/shake/esp/bt_spp_acceptor/main/main.c:58
+--- 0x4008f441: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x4010e13a: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x4010e550: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400885f9: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x400d80f8: my_loop_task at C:/Users/shake/esp/bt_spp_acceptor/main/main.c:58
+--- 0x4008f441: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x4010e13a: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x4010e550: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400885f9: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x400d80f8: my_loop_task at C:/Users/shake/esp/bt_spp_acceptor/main/main.c:58
+--- 0x4008f441: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x4010e13a: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x4010e550: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400885f9: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x400d80f8: my_loop_task at C:/Users/shake/esp/bt_spp_acceptor/main/main.c:58
+--- 0x4008f441: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x4010e13a: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x4010e550: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400885f9: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x400d80fb: my_loop_task at C:/Users/shake/esp/bt_spp_acceptor/main/main.c:61
+--- 0x4008f441: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x4008a282: esp_crosscore_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/crosscore_int.c:73
+--- 0x400885f9: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x400d80fe: my_loop_task at C:/Users/shake/esp/bt_spp_acceptor/main/main.c:61
+--- 0x4008f441: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x4008a282: esp_crosscore_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/crosscore_int.c:73
+--- 0x400885f9: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x400d80fe: my_loop_task at C:/Users/shake/esp/bt_spp_acceptor/main/main.c:61
+--- 0x4008f441: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x4008a282: esp_crosscore_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/crosscore_int.c:73
+--- 0x400885f9: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x400d80f8: my_loop_task at C:/Users/shake/esp/bt_spp_acceptor/main/main.c:58
+--- 0x4008f441: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0m

@@ -1,0 +1,414 @@
+019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)�ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:6276
+load:0x40078000,len:15748
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3860
+entry 0x4008063c
+[0;32mI (31) boot: ESP-IDF v5.4.1 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Jun 23 2025 12:43:45[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (32) boot: chip revision: v3.1[0m
+[0;32mI (35) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (39) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (43) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (46) boot: Enabling RNG early entropy source...[0m
+[0;32mI (51) boot: Partition Table:[0m
+[0;32mI (53) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (60) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (66) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (73) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (79) boot: End of partition table[0m
+[0;32mI (82) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=112d4h ( 70356) map[0m
+[0;32mI (114) esp_image: segment 1: paddr=000212fc vaddr=3ff80000 size=0001ch (    28) load[0m
+[0;32mI (114) esp_image: segment 2: paddr=00021320 vaddr=3ffbdb60 size=04438h ( 17464) load[0m
+I (124) esp_image: segment 3: paddr=00025760 vaddr=40080000 size=0a8b8h ( 43192) load
+[0;32mI (142) esp_image: segment 4: paddr=00030020 vaddr=400d0020 size=61150h (397648) map[0m
+[0;32mI (278) esp_image: segment 5: paddr=00091178 vaddr=4008a8b8 size=0c57ch ( 50556) load[0m
+[0;32mI (309) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (309) boot: Disabling RNG early entropy source...[0m
+[0;32mI (320) cpu_start: Multicore app[0m
+[0;32mI (328) cpu_start: Pro cpu start user code[0m
+[0;32mI (328) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (328) app_init: Application information:[0m
+[0;32mI (328) app_init: Project name:     bt_spp_acceptor_demo[0m
+[0;32mI (333) app_init: App version:      1[0m
+[0;32mI (337) app_init: Compile time:     Jun 23 2025 12:52:56[0m
+[0;32mI (342) app_init: ELF file SHA256:  3899916a3...[0m
+[0;32mI (346) app_init: ESP-IDF:          v5.4.1[0m
+[0;32mI (350) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (354) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (358) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (362) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (368) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (373) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (378) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (383) heap_init: At 3FFC7E80 len 00018180 (96 KiB): DRAM[0m
+[0;32mI (388) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (394) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (399) heap_init: At 40096E34 len 000091CC (36 KiB): IRAM[0m
+[0;32mI (406) spi_flash: detected chip: generic[0m
+[0;32mI (408) spi_flash: flash io: dio[0m
+[0;33mW (411) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (424) main_task: Started on CPU0[0m
+[0;32mI (434) main_task: Calling app_main()[0m
+I (444) BTDM_INIT: BT controller compile version [dc1cd58]
+[0;32mI (444) BTDM_INIT: Bluetooth MAC: ac:15:18:d4:ac:d6[0m
+[0;32mI (444) phy_init: phy_version 4860,6b7a6e5,Feb  6 2025,14:47:07[0m
+Coex register Wi-Fi channel change btdm cb faild
+[1;31mE (1044) OBDLINK_EMULATOR: Enabled bluedroid[0m
+[1;31mE (1044) OBDLINK_EMULATOR: Sniff mode disabled via BTM_SetDefaultLinkPolicy[0m
+[0;32mI (1044) OBDLINK_EMULATOR: ESP_SPP_INIT_EVT[0m
+[0;32mI (1044) OBDLINK_EMULATOR: ESP_SPP_START_EVT handle:129 sec_id:55 scn:1[0m
+[0;32mI (1054) OBDLINK_EMULATOR: event: 10[0m
+[0;32mI (1054) OBDLINK_EMULATOR: Own address:[ac:15:18:d4:ac:d6][0m
+[0;32mI (1064) main_task: Returned from app_main()[0m
+[0;32mI (26364) OBDLINK_EMULATOR: event: 16[0m
+[0;32mI (26654) OBDLINK_EMULATOR: ESP_SPP_SRV_OPEN_EVT status:0 handle:129, rem_bda:[ec:2b:eb:1a:42:16][0m
+[0;32mI (26714) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:4 handle:129[0m
+[0;32mI (26714) : 41 54 5a 0d[0m
+[0;32mI (26714) OBDLINK_EMULATOR: Received data: ATZ[0m
+[0;32mI (26714) OBDLINK_EMULATOR: Trimmed input: 'ATZ'[0m
+[0;32mI (26714) OBDLINK_EMULATOR: Message received[0m
+[0;32mI (26724) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (26774) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:5 handle:129[0m
+[0;32mI (26774) : 41 54 45 30 0d[0m
+[0;32mI (26774) OBDLINK_EMULATOR: Received data: ATE0[0m
+[0;32mI (26774) OBDLINK_EMULATOR: Trimmed input: 'ATE0'[0m
+[0;32mI (26784) OBDLINK_EMULATOR: Message received[0m
+[0;32mI (26794) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (26824) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:5 handle:129[0m
+[0;32mI (26824) : 41 54 53 30 0d[0m
+[0;32mI (26824) OBDLINK_EMULATOR: Received data: ATS0[0m
+[0;32mI (26824) OBDLINK_EMULATOR: Trimmed input: 'ATS0'[0m
+[0;32mI (26834) OBDLINK_EMULATOR: Message received[0m
+[0;32mI (26834) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (26904) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:5 handle:129[0m
+[0;32mI (26904) : 41 54 4c 30 0d[0m
+[0;32mI (26904) OBDLINK_EMULATOR: Received data: ATL0[0m
+[0;32mI (26904) OBDLINK_EMULATOR: Trimmed input: 'ATL0'[0m
+[0;32mI (26904) OBDLINK_EMULATOR: Message received[0m
+[0;32mI (26914) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (26994) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:7 handle:129[0m
+[0;32mI (26994) : 41 54 53 50 30 30 0d[0m
+[0;32mI (26994) OBDLINK_EMULATOR: Received data: ATSP00[0m
+[0;32mI (26994) OBDLINK_EMULATOR: Trimmed input: 'ATSP00'[0m
+[0;33mW (26994) OBDLINK_EMULATOR: OBD2 mode detected[0m
+[0;32mI (27004) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (27034) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:5 handle:129[0m
+[0;32mI (27034) : 41 54 44 50 0d[0m
+[0;32mI (27034) OBDLINK_EMULATOR: Received data: ATDP[0m
+[0;32mI (27034) OBDLINK_EMULATOR: Trimmed input: 'ATDP'[0m
+[0;32mI (27034) OBDLINK_EMULATOR: Message received[0m
+[0;32mI (27044) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (27104) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:5 handle:129[0m
+[0;32mI (27104) : 30 31 30 43 0d[0m
+[0;32mI (27104) OBDLINK_EMULATOR: Received data: 010C[0m
+[0;32mI (27114) OBDLINK_EMULATOR: Trimmed input: '010C'[0m
+[0;32mI (27114) OBDLINK_EMULATOR: Message received[0m
+[0;32mI (27124) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (27224) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:6 handle:129[0m
+[0;32mI (27224) : 41 54 49 47 4e 0d[0m
+[0;32mI (27224) OBDLINK_EMULATOR: Received data: ATIGN[0m
+[0;32mI (27224) OBDLINK_EMULATOR: Trimmed input: 'ATIGN'[0m
+[0;32mI (27234) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (27324) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:5 handle:129[0m
+[0;32mI (27324) : 30 31 30 43 0d[0m
+[0;32mI (27324) OBDLINK_EMULATOR: Received data: 010C[0m
+[0;32mI (27324) OBDLINK_EMULATOR: Trimmed input: '010C'[0m
+[0;32mI (27334) OBDLINK_EMULATOR: Message received[0m
+[0;32mI (27334) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (27464) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:6 handle:129[0m
+[0;32mI (27464) : 41 54 49 47 4e 0d[0m
+[0;32mI (27464) OBDLINK_EMULATOR: Received data: ATIGN[0m
+[0;32mI (27474) OBDLINK_EMULATOR: Trimmed input: 'ATIGN'[0m
+[0;32mI (27474) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (27564) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:5 handle:129[0m
+[0;32mI (27564) : 30 31 30 43 0d[0m
+[0;32mI (27564) OBDLINK_EMULATOR: Received data: 010C[0m
+[0;32mI (27564) OBDLINK_EMULATOR: Trimmed input: '010C'[0m
+[0;32mI (27574) OBDLINK_EMULATOR: Message received[0m
+[0;32mI (27574) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (27684) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:6 handle:129[0m
+[0;32mI (27684) : 41 54 49 47 4e 0d[0m
+[0;32mI (27684) OBDLINK_EMULATOR: Received data: ATIGN[0m
+[0;32mI (27684) OBDLINK_EMULATOR: Trimmed input: 'ATIGN'[0m
+[0;32mI (27694) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (27784) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:5 handle:129[0m
+[0;32mI (27784) : 30 31 30 43 0d[0m
+[0;32mI (27784) OBDLINK_EMULATOR: Received data: 010C[0m
+[0;32mI (27784) OBDLINK_EMULATOR: Trimmed input: '010C'[0m
+[0;32mI (27784) OBDLINK_EMULATOR: Message received[0m
+[0;32mI (27794) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (27834) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:6 handle:129[0m
+[0;32mI (27834) : 41 54 49 47 4e 0d[0m
+[0;32mI (27834) OBDLINK_EMULATOR: Received data: ATIGN[0m
+[0;32mI (27834) OBDLINK_EMULATOR: Trimmed input: 'ATIGN'[0m
+[0;32mI (27844) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (27904) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:5 handle:129[0m
+[0;32mI (27904) : 30 31 30 43 0d[0m
+[0;32mI (27904) OBDLINK_EMULATOR: Received data: 010C[0m
+[0;32mI (27904) OBDLINK_EMULATOR: Trimmed input: '010C'[0m
+[0;32mI (27904) OBDLINK_EMULATOR: Message received[0m
+[0;32mI (27914) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (27994) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:6 handle:129[0m
+[0;32mI (27994) : 41 54 49 47 4e 0d[0m
+[0;32mI (28004) OBDLINK_EMULATOR: Received data: ATIGN[0m
+[0;32mI (28004) OBDLINK_EMULATOR: Trimmed input: 'ATIGN'[0m
+[0;32mI (28004) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (28034) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:5 handle:129[0m
+[0;32mI (28034) : 30 31 30 43 0d[0m
+[0;32mI (28034) OBDLINK_EMULATOR: Received data: 010C[0m
+[0;32mI (28034) OBDLINK_EMULATOR: Trimmed input: '010C'[0m
+[0;32mI (28044) OBDLINK_EMULATOR: Message received[0m
+[0;32mI (28044) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (28124) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:6 handle:129[0m
+[0;32mI (28124) : 41 54 49 47 4e 0d[0m
+[0;32mI (28124) OBDLINK_EMULATOR: Received data: ATIGN[0m
+[0;32mI (28124) OBDLINK_EMULATOR: Trimmed input: 'ATIGN'[0m
+[0;32mI (28134) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (28244) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:5 handle:129[0m
+[0;32mI (28244) : 30 31 30 43 0d[0m
+[0;32mI (28244) OBDLINK_EMULATOR: Received data: 010C[0m
+[0;32mI (28244) OBDLINK_EMULATOR: Trimmed input: '010C'[0m
+[0;32mI (28244) OBDLINK_EMULATOR: Message received[0m
+[0;32mI (28254) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (28344) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:6 handle:129[0m
+[0;32mI (28344) : 41 54 49 47 4e 0d[0m
+[0;32mI (28344) OBDLINK_EMULATOR: Received data: ATIGN[0m
+[0;32mI (28344) OBDLINK_EMULATOR: Trimmed input: 'ATIGN'[0m
+[0;32mI (28354) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (28354) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:5 handle:129[0m
+[0;32mI (28354) : 30 31 30 43 0d[0m
+[0;32mI (28354) OBDLINK_EMULATOR: Received data: 010C[0m
+[0;32mI (28364) OBDLINK_EMULATOR: Trimmed input: '010C'[0m
+[0;32mI (28364) OBDLINK_EMULATOR: Message received[0m
+[0;32mI (28374) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (28454) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:6 handle:129[0m
+[0;32mI (28454) : 41 54 49 47 4e 0d[0m
+[0;32mI (28454) OBDLINK_EMULATOR: Received data: ATIGN[0m
+[0;32mI (28464) OBDLINK_EMULATOR: Trimmed input: 'ATIGN'[0m
+[0;32mI (28464) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (28494) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:5 handle:129[0m
+[0;32mI (28494) : 30 31 30 43 0d[0m
+[0;32mI (28494) OBDLINK_EMULATOR: Received data: 010C[0m
+[0;32mI (28494) OBDLINK_EMULATOR: Trimmed input: '010C'[0m
+[0;32mI (28494) OBDLINK_EMULATOR: Message received[0m
+[0;32mI (28504) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (28554) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:6 handle:129[0m
+[0;32mI (28554) : 41 54 49 47 4e 0d[0m
+[0;32mI (28554) OBDLINK_EMULATOR: Received data: ATIGN[0m
+[0;32mI (28564) OBDLINK_EMULATOR: Trimmed input: 'ATIGN'[0m
+[0;32mI (28564) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (28704) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:5 handle:129[0m
+[0;32mI (28704) : 30 31 30 43 0d[0m
+[0;32mI (28704) OBDLINK_EMULATOR: Received data: 010C[0m
+[0;32mI (28704) OBDLINK_EMULATOR: Trimmed input: '010C'[0m
+[0;32mI (28704) OBDLINK_EMULATOR: Message received[0m
+[0;32mI (28714) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (28794) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:6 handle:129[0m
+[0;32mI (28794) : 41 54 49 47 4e 0d[0m
+[0;32mI (28804) OBDLINK_EMULATOR: Received data: ATIGN[0m
+[0;32mI (28804) OBDLINK_EMULATOR: Trimmed input: 'ATIGN'[0m
+[0;32mI (28804) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (28844) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:5 handle:129[0m
+[0;32mI (28844) : 30 31 30 43 0d[0m
+[0;32mI (28844) OBDLINK_EMULATOR: Received data: 010C[0m
+[0;32mI (28844) OBDLINK_EMULATOR: Trimmed input: '010C'[0m
+[0;32mI (28854) OBDLINK_EMULATOR: Message received[0m
+[0;32mI (28864) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (28924) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:6 handle:129[0m
+[0;32mI (28924) : 41 54 49 47 4e 0d[0m
+[0;32mI (28924) OBDLINK_EMULATOR: Received data: ATIGN[0m
+[0;32mI (28924) OBDLINK_EMULATOR: Trimmed input: 'ATIGN'[0m
+[0;32mI (28934) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (28954) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:5 handle:129[0m
+[0;32mI (28954) : 30 31 30 43 0d[0m
+[0;32mI (28954) OBDLINK_EMULATOR: Received data: 010C[0m
+[0;32mI (28954) OBDLINK_EMULATOR: Trimmed input: '010C'[0m
+[0;32mI (28954) OBDLINK_EMULATOR: Message received[0m
+[0;32mI (28964) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (29014) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:6 handle:129[0m
+[0;32mI (29014) : 41 54 49 47 4e 0d[0m
+[0;32mI (29014) OBDLINK_EMULATOR: Received data: ATIGN[0m
+[0;32mI (29024) OBDLINK_EMULATOR: Trimmed input: 'ATIGN'[0m
+[0;32mI (29024) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (29054) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:5 handle:129[0m
+[0;32mI (29054) : 30 31 30 43 0d[0m
+[0;32mI (29054) OBDLINK_EMULATOR: Received data: 010C[0m
+[0;32mI (29054) OBDLINK_EMULATOR: Trimmed input: '010C'[0m
+[0;32mI (29064) OBDLINK_EMULATOR: Message received[0m
+[0;32mI (29064) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (29144) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:6 handle:129[0m
+[0;32mI (29144) : 41 54 49 47 4e 0d[0m
+[0;32mI (29144) OBDLINK_EMULATOR: Received data: ATIGN[0m
+[0;32mI (29144) OBDLINK_EMULATOR: Trimmed input: 'ATIGN'[0m
+[0;32mI (29154) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (29234) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:5 handle:129[0m
+[0;32mI (29234) : 30 31 30 43 0d[0m
+[0;32mI (29234) OBDLINK_EMULATOR: Received data: 010C[0m
+[0;32mI (29234) OBDLINK_EMULATOR: Trimmed input: '010C'[0m
+[0;32mI (29244) OBDLINK_EMULATOR: Message received[0m
+[0;32mI (29254) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (29274) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:6 handle:129[0m
+[0;32mI (29274) : 41 54 49 47 4e 0d[0m
+[0;32mI (29274) OBDLINK_EMULATOR: Received data: ATIGN[0m
+[0;32mI (29274) OBDLINK_EMULATOR: Trimmed input: 'ATIGN'[0m
+[0;32mI (29284) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (29344) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:5 handle:129[0m
+[0;32mI (29354) : 30 31 30 43 0d[0m
+[0;32mI (29354) OBDLINK_EMULATOR: Received data: 010C[0m
+[0;32mI (29354) OBDLINK_EMULATOR: Trimmed input: '010C'[0m
+[0;32mI (29354) OBDLINK_EMULATOR: Message received[0m
+[0;32mI (29364) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (29444) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:6 handle:129[0m
+[0;32mI (29444) : 41 54 49 47 4e 0d[0m
+[0;32mI (29444) OBDLINK_EMULATOR: Received data: ATIGN[0m
+[0;32mI (29444) OBDLINK_EMULATOR: Trimmed input: 'ATIGN'[0m
+[0;32mI (29454) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (29484) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:5 handle:129[0m
+[0;32mI (29484) : 30 31 30 43 0d[0m
+[0;32mI (29484) OBDLINK_EMULATOR: Received data: 010C[0m
+[0;32mI (29484) OBDLINK_EMULATOR: Trimmed input: '010C'[0m
+[0;32mI (29494) OBDLINK_EMULATOR: Message received[0m
+[0;32mI (29494) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (29554) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:6 handle:129[0m
+[0;32mI (29554) : 41 54 49 47 4e 0d[0m
+[0;32mI (29554) OBDLINK_EMULATOR: Received data: ATIGN[0m
+[0;32mI (29554) OBDLINK_EMULATOR: Trimmed input: 'ATIGN'[0m
+[0;32mI (29564) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (29674) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:5 handle:129[0m
+[0;32mI (29674) : 30 31 30 43 0d[0m
+[0;32mI (29674) OBDLINK_EMULATOR: Received data: 010C[0m
+[0;32mI (29674) OBDLINK_EMULATOR: Trimmed input: '010C'[0m
+[0;32mI (29684) OBDLINK_EMULATOR: Message received[0m
+[0;32mI (29694) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (29774) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:6 handle:129[0m
+[0;32mI (29774) : 41 54 49 47 4e 0d[0m
+[0;32mI (29774) OBDLINK_EMULATOR: Received data: ATIGN[0m
+[0;32mI (29774) OBDLINK_EMULATOR: Trimmed input: 'ATIGN'[0m
+[0;32mI (29784) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (29894) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:5 handle:129[0m
+[0;32mI (29894) : 30 31 30 43 0d[0m
+[0;32mI (29894) OBDLINK_EMULATOR: Received data: 010C[0m
+[0;32mI (29894) OBDLINK_EMULATOR: Trimmed input: '010C'[0m
+[0;32mI (29904) OBDLINK_EMULATOR: Message received[0m
+[0;32mI (29904) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (30014) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:6 handle:129[0m
+[0;32mI (30014) : 41 54 49 47 4e 0d[0m
+[0;32mI (30014) OBDLINK_EMULATOR: Received data: ATIGN[0m
+[0;32mI (30014) OBDLINK_EMULATOR: Trimmed input: 'ATIGN'[0m
+[0;32mI (30024) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (30124) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:5 handle:129[0m
+[0;32mI (30124) : 30 31 30 43 0d[0m
+[0;32mI (30124) OBDLINK_EMULATOR: Received data: 010C[0m
+[0;32mI (30124) OBDLINK_EMULATOR: Trimmed input: '010C'[0m
+[0;32mI (30134) OBDLINK_EMULATOR: Message received[0m
+[0;32mI (30134) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (30224) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:6 handle:129[0m
+[0;32mI (30224) : 41 54 49 47 4e 0d[0m
+[0;32mI (30224) OBDLINK_EMULATOR: Received data: ATIGN[0m
+[0;32mI (30224) OBDLINK_EMULATOR: Trimmed input: 'ATIGN'[0m
+[0;32mI (30234) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (30344) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:5 handle:129[0m
+[0;32mI (30344) : 30 31 30 43 0d[0m
+[0;32mI (30344) OBDLINK_EMULATOR: Received data: 010C[0m
+[0;32mI (30344) OBDLINK_EMULATOR: Trimmed input: '010C'[0m
+[0;32mI (30344) OBDLINK_EMULATOR: Message received[0m
+[0;32mI (30354) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (30434) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:6 handle:129[0m
+[0;32mI (30434) : 41 54 49 47 4e 0d[0m
+[0;32mI (30434) OBDLINK_EMULATOR: Received data: ATIGN[0m
+[0;32mI (30434) OBDLINK_EMULATOR: Trimmed input: 'ATIGN'[0m
+[0;32mI (30444) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (30554) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:5 handle:129[0m
+[0;32mI (30554) : 30 31 30 43 0d[0m
+[0;32mI (30554) OBDLINK_EMULATOR: Received data: 010C[0m
+[0;32mI (30554) OBDLINK_EMULATOR: Trimmed input: '010C'[0m
+[0;32mI (30564) OBDLINK_EMULATOR: Message received[0m
+[0;32mI (30574) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (30654) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:6 handle:129[0m
+[0;32mI (30654) : 41 54 49 47 4e 0d[0m
+[0;32mI (30654) OBDLINK_EMULATOR: Received data: ATIGN[0m
+[0;32mI (30654) OBDLINK_EMULATOR: Trimmed input: 'ATIGN'[0m
+[0;32mI (30664) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (30764) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:5 handle:129[0m
+[0;32mI (30764) : 30 31 30 43 0d[0m
+[0;32mI (30774) OBDLINK_EMULATOR: Received data: 010C[0m
+[0;32mI (30774) OBDLINK_EMULATOR: Trimmed input: '010C'[0m
+[0;32mI (30774) OBDLINK_EMULATOR: Message received[0m
+[0;32mI (30784) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (30864) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:6 handle:129[0m
+[0;32mI (30864) : 41 54 49 47 4e 0d[0m
+[0;32mI (30864) OBDLINK_EMULATOR: Received data: ATIGN[0m
+[0;32mI (30864) OBDLINK_EMULATOR: Trimmed input: 'ATIGN'[0m
+[0;32mI (30874) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (30974) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:5 handle:129[0m
+[0;32mI (30974) : 30 31 30 43 0d[0m
+[0;32mI (30974) OBDLINK_EMULATOR: Received data: 010C[0m
+[0;32mI (30974) OBDLINK_EMULATOR: Trimmed input: '010C'[0m
+[0;32mI (30984) OBDLINK_EMULATOR: Message received[0m
+[0;32mI (30984) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (31064) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:6 handle:129[0m
+[0;32mI (31064) : 41 54 49 47 4e 0d[0m
+[0;32mI (31074) OBDLINK_EMULATOR: Received data: ATIGN[0m
+[0;32mI (31074) OBDLINK_EMULATOR: Trimmed input: 'ATIGN'[0m
+[0;32mI (31074) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (31114) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:5 handle:129[0m
+[0;32mI (31114) : 30 31 30 43 0d[0m
+[0;32mI (31114) OBDLINK_EMULATOR: Received data: 010C[0m
+[0;32mI (31114) OBDLINK_EMULATOR: Trimmed input: '010C'[0m
+[0;32mI (31114) OBDLINK_EMULATOR: Message received[0m
+[0;32mI (31124) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (31214) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:6 handle:129[0m
+[0;32mI (31214) : 41 54 49 47 4e 0d[0m
+[0;32mI (31214) OBDLINK_EMULATOR: Received data: ATIGN[0m
+[0;32mI (31214) OBDLINK_EMULATOR: Trimmed input: 'ATIGN'[0m
+[0;32mI (31224) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (31334) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:5 handle:129[0m
+[0;32mI (31334) : 30 31 30 43 0d[0m
+[0;32mI (31334) OBDLINK_EMULATOR: Received data: 010C[0m
+[0;32mI (31334) OBDLINK_EMULATOR: Trimmed input: '010C'[0m
+[0;32mI (31334) OBDLINK_EMULATOR: Message received[0m
+[0;32mI (31344) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (31424) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:6 handle:129[0m
+[0;32mI (31424) : 41 54 49 47 4e 0d[0m
+[0;32mI (31434) OBDLINK_EMULATOR: Received data: ATIGN[0m
+[0;32mI (31434) OBDLINK_EMULATOR: Trimmed input: 'ATIGN'[0m
+[0;32mI (31434) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (31554) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:5 handle:129[0m
+[0;32mI (31554) : 30 31 30 43 0d[0m
+[0;32mI (31554) OBDLINK_EMULATOR: Received data: 010C[0m
+[0;32mI (31554) OBDLINK_EMULATOR: Trimmed input: '010C'[0m
+[0;32mI (31554) OBDLINK_EMULATOR: Message received[0m
+[0;32mI (31564) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (31644) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:6 handle:129[0m
+[0;32mI (31644) : 41 54 49 47 4e 0d[0m
+[0;32mI (31644) OBDLINK_EMULATOR: Received data: ATIGN[0m
+[0;32mI (31644) OBDLINK_EMULATOR: Trimmed input: 'ATIGN'[0m
+[0;32mI (31654) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (31764) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:5 handle:129[0m
+[0;32mI (31764) : 30 31 30 43 0d[0m
+[0;32mI (31764) OBDLINK_EMULATOR: Received data: 010C[0m
+[0;32mI (31764) OBDLINK_EMULATOR: Trimmed input: '010C'[0m
+[0;32mI (31774) OBDLINK_EMULATOR: Message received[0m
+[0;32mI (31784) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (31794) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:6 handle:129[0m
+[0;32mI (31794) : 41 54 49 47 4e 0d[0m
+[0;32mI (31804) OBDLINK_EMULATOR: Received data: ATIGN[0m
+[0;32mI (31804) OBDLINK_EMULATOR: Trimmed input: 'ATIGN'[0m
+[0;32mI (31804) OBDLINK_EMULATOR: ESP_SPP_WRITE_EVT[0m
+[0;32mI (31864) OBDLINK_EMULATOR: ESP_SPP_DATA_IND_EVT len:5 handle:129[0m
+[0;32mI (31864) : 41 54 50 43 0d[0m
+[0;32mI (31864) OBDLINK_EMULATOR: Received data: ATPC[0m
+[0;32mI (31864) OBDLINK_EMULATOR: Trimmed input: 'ATPC'[0m
+[0;32mI (31874) OBDLINK_EMULATOR: Monitor stop[0m
+[0;32mI (32754) OBDLINK_EMULATOR: ESP_SPP_CLOSE_EVT status:0 handle:129 close_by_remote:1[0m
+[0;32mI (36854) OBDLINK_EMULATOR: event: 17[0m
